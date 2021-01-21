@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
       justify-content: center;
+      background-color: #1f1f1f ;
+
 }
 .heading {
     position: absolute;
@@ -51,7 +53,7 @@ body {
   }
  
   #particles-js p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 0.5rem;
     
     letter-spacing: 0.1rem;
@@ -81,3 +83,47 @@ body {
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
   }
+
+
+  .nav{
+    justify-content: center;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color: rgb(34, 34, 34);
+    border-bottom: 2px solid;
+    
+    
+}
+.nav li {
+    display:inline;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right:8px;
+    
+}
+.nav a,  #about a{
+    transition-duration: 0.4s;
+    display:inline-block;
+    padding:4px;
+    color: #b273fa;
+    text-decoration: none;
+    border-radius: 4x ;
+}
+.nav a:hover, #about a:hover {
+    background-color: #b273fa ; /* Green */
+    color: black;
+    border-radius: 35px;
+    font-weight: bolder;
+}
+ 
+#about, #skills {
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+
+
