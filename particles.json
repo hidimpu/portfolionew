@@ -1,23 +1,23 @@
 {
   "particles": {
     "number": {
-      "value": 104,
+      "value": 90,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1025.8919341219544
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#bbb5b5"
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#5c5c5c"
       },
       "polygon": {
-        "nb_sides": 4
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -26,17 +26,17 @@
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 0.20042650760819036,
+      "random": true,
       "anim": {
         "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
+        "speed": 2.1926084732136317,
+        "opacity_min": 0.024362316369040352,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
+      "value": 8.017060304327615,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,22 +47,22 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 63.131811330581804,
+      "distance": 150,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1.736124811591
+      "opacity": 0.5211089197812949,
+      "width": 0.8
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
+      "speed": 1.603412060865523,
+      "direction": "top",
       "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
+        "rotateX": 1523.2414578222467,
         "rotateY": 1200
       }
     }
@@ -82,9 +82,9 @@
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 407.5924075924076,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0.3804712987023502
         }
       },
       "bubble": {
