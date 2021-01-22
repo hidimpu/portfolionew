@@ -94,15 +94,17 @@ body {
     color: rgb(34, 34, 34);
     border-bottom: 2px solid;
     
+  
     
-}
+  }
+
 .nav li {
     display:inline;
     border-radius: 4px;
     padding-left: 8px;
-    padding-right:8px;
-    
+    padding-right:8px;   
 }
+
 .nav a,  #about a{
     transition-duration: 0.4s;
     display:inline-block;
@@ -111,20 +113,90 @@ body {
     text-decoration: none;
     border-radius: 4x ;
 }
-.nav a:hover, #about a:hover {
+.nav a:hover, #about a:hover{
     background-color: #b273fa ; /* Green */
     color: black;
     border-radius: 35px;
     font-weight: bolder;
+ 
 }
  
-#about, #skills {
+#about, #skills, #projects {
     justify-content: center;
     text-align: center;
-    height: 100vh;
-    padding-top: 5em;
+    /* height: 100vh; */
+    padding-top: 2em;
+    
+    /* text-decoration: underline;
+    text-decoration-color: #b273fa;
+    margin-bottom: 5px; */
+}
 
+#about h2, #skills h2, #projects h2 {
+  text-decoration: underline;
+    text-decoration-color: #b273fa;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    
 }
 
 
 
+#skills img {
+  margin: 1em;
+  margin-top: 2em;
+  text-decoration: underline;
+    text-decoration-color: #b273fa;
+}
+
+#skills img:hover{
+  height: 55px;
+  transition-duration: 0.4s;
+}
+
+#skills p {
+  border-style: groove;
+  border-radius: 40px;
+  border-color: #b273fa;
+  border-width: 1px ;
+    
+  
+}
+
+#skills p:hover {
+  background-color: #b273fa;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+
+#card{
+  border-color: #b273fa;
+  padding:1em;
+  border-width: 3px;
+  border-radius: 20px;
+
+}
+#card-title {
+  text-decoration: underline;
+  text-decoration-color: #b273fa;
+  padding-bottom: 0.8em;
+}
+
+#projects a{
+  background-color: #b273fa ; /* Green */
+    text-decoration: none;
+   border-radius: 10px;
+    font-weight: bolder;
+  color: #1f1f1f;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#projects a:hover {
+    color: white;
+    background-color: #1f1f1f;
+    text-decoration: underline;
+}
