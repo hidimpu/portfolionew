@@ -101,8 +101,8 @@ body {
 .nav li {
     display:inline;
     border-radius: 4px;
-    padding-left: 18px;
-    padding-right:18px;   
+    padding-left: 8px;
+    padding-right:8px;   
 }
 
 .nav a,  #about a{
