@@ -95,7 +95,7 @@ body {
     border-bottom: 2px solid;
     overflow: hidden;
     background-color: #1f1f1f;
-   z-index: 1;    
+    z-index: 1;    
   }
 
 .nav li {
