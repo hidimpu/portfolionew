@@ -91,11 +91,11 @@ body {
     margin:0;
     padding:0;
     text-align:center;
-    color: rgb(34, 34, 34);
+    color: #696969;
     border-bottom: 2px solid;
-    
-  
-    
+    overflow: hidden;
+    background-color: #1f1f1f;
+   z-index: 1;    
   }
 
 .nav li {
@@ -222,4 +222,14 @@ body {
   border-top: 2px solid #b273fa;
 
   
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
