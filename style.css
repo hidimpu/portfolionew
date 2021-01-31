@@ -187,6 +187,7 @@ body {
   padding:1em;
   border-width: 3px;
   border-radius: 20px;
+  min-height: 300px;
 
 }
 #card-title {
@@ -232,4 +233,8 @@ body {
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+.card {
+  min-height: 280px;
 }
