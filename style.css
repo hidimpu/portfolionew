@@ -238,3 +238,11 @@ body {
 .card {
   min-height: 280px;
 }
+
+::-moz-selection { /* Code for Firefox */
+  background: #b273fa;
+}
+
+::selection {
+  background: #b273fa;
+}
