@@ -164,16 +164,14 @@ body {
 
 #skills img:hover{
   height: 55px;
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
 }
 
 #skills p {
   border-style: groove;
   border-radius: 40px;
   border-color: #b273fa;
-  border-width: 1px ;
-    
-  
+  border-width: 1px;
 }
 
 #skills p:hover {
