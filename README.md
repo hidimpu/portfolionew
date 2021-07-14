@@ -1,2 +1,2 @@
 ## My Portfolio Website 
-### Live Version: www.parthshukla.netlify.com 🙌 ✨
+### Live Version: https://parthshukla.netlify.app/ 🙌 ✨
